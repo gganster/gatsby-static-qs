@@ -4,6 +4,7 @@ module.exports = {
     title: "template",
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
